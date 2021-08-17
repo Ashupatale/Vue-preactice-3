@@ -31,7 +31,7 @@ import axios from 'axios'
             getPost(){
                 axios.get("https://jsonplaceholder.typicode.com/users")
                 .then((response)=>{
-                    this.posts=response.data
+                     this.posts=response.data
                 })
                 .catch((error)=>{
                     console.log(error)
